@@ -1,4 +1,3 @@
-using System.Threading.Tasks;
 using MvvmCross.Core.ViewModels;
 using System.Collections.ObjectModel;
 using RecycleViewTest.Models;
@@ -26,13 +25,6 @@ namespace RecycleViewTest.ViewModels
                     Name = "Test2"
                 }
             };
-        }
-        
-        public override Task Initialize()
-        {
-            //TODO: Add starting logic here
-		    
-            return base.Initialize();
         }
     }
 }
